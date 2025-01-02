@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        .main{
+            width: 500px;
+            height: 500px;
+            background-color: rgb(224, 216, 204);
+        }
+        #parent-row-1{
+            width: 500px;
+            height: 250px;
+            background-color: aqua;
+        }
+        #parent-row-2{
+            width: 500px;
+            height: 250px;
+            background-color: rgb(12, 111, 111);
+        }
+        .col1{
+            width: 250px;
+            height: 250px;
+            background-color: aquamarine;
+            float: left;
+        }
+        .col2{
+            width: 250px;
+            height: 250px;
+            background-color: rgb(51, 134, 28);
+            float: right;
+        }
+    </style>
+</head>
+<body>
+   <h1>CSS complete intro</h1>
+   <h2>What is css </h2>
+   <p>css stands for (cascading style sheet).</p>
+   <p>describes how html elements are to be displayed on screen.</p>
+   <p>CSS covers multiple layout at once.</p>
+
+   <h2>type of css</h2>
+   <p><b><u>Internal css:-</u></b> An internal stylesheet holds 
+    CSS rules for the page in the head section of the HTML file.
+   </p>
+
+   <p><b><u>External css:-</u></b> An external stylesheet is a file
+    containing only CSS syntax.</p>
+
+    <p><b><u>Inline css:-</u></b> Inline CSS allows you to apply a unique
+    style to one HTML element at a time.</p>
+    
+    <h2>How css works</h2>
+    <h3>css selector</h3>
+    <p>In css, selectors are patterns used to select
+         the element(s) you want to style.</p>
+    <h2>Two main selectors.</h2>
+    <p><ul>
+        <li><b><u>.class</u></b> (eg .intro):- Selects all elements with class = "intro"</li>
+        <li><b><u>#id</u></b> (eg #firsrname):- Selects the element with id="firstname"</li>
+    </ul></p>
+    <img src="declare & define.png" alt="declare & define"><br><br>
+    <img src="call class & id.png" alt="call class & id">
+
+    <h2>Working with Internal css </h2>
+    <p><b><u>CSS properties</u></b></p>
+    <ul>
+        <li>width 
+            <ul>
+                <li>gives widtn to the html element</li>
+                <li>in px or %</li>
+            </ul>
+            <li>height 
+                <ul>
+                    <li>gives height to the html element</li>
+                    <li>in px or %</li>
+                </ul>
+                <li>background-color 
+                    <ul>
+                        <li>give background color to the html element</li>
+                        <li>color name or color code</li>
+                    </ul>
+                    <li>float 
+                        <ul>
+                            <li>give direction to the html element </li>
+                            <li>left or right</li>
+                        </ul>
+                    </li>
+                </li>
+            </li>
+        </li>
+    </ul>
+<img src="css properties.png" alt="">
+    <h2>div work </h2>
+<div class="main"> <!--Main div-->
+    <div id="parent-row-1"> <!--Parent row 1-->
+        <div class="col1"> <!--col1-->
+            Home
+        </div>
+        <div class="col2">
+            About
+        </div>
+    </div>
+    <hr>
+    <div id="parent-row-2"> <!--Parent row 2-->
+        <div class="col1"><!--col 2-->
+            Gallary
+        </div> 
+        <div class="col2">
+            Contact 
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>
